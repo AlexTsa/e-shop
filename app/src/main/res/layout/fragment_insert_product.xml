@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--Δημιουργούμε ένα LinearLayout με ένα TextView , 6 EditText για εισαγώγη των χαρακτηριστικών του προϊόντος και ενα button
+    το οποίο κάνει εισαγώγη του προϊόντος  στην βάση -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert Product"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/idCategoryEditTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Category"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+       />
+
+    <EditText
+        android:id="@+id/idBrandEditTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Brand"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/idFeatureEditTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint=" Features"
+         />
+    <EditText
+        android:id="@+id/idPriceEditTexiView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"
+         />
+
+    <EditText
+        android:id="@+id/idUnitsEditTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Units"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/idImageUrlEditTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ImageUrl"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+         />
+
+    <Button
+        android:id="@+id/idBtnInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        android:layout_marginTop="10dp"
+       />
+
+</LinearLayout>

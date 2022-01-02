@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">E_shop</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="nav_insertProduct">Insert Product</string>
+    <string name="nav_displayProducts">Display Products</string>
+    <string name="nav_Queries">Queries </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+
+    <string-array name="arrayunits">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="string_array_queries">
+        <item>Το υπόλοιπο της ποσότητας ανά προϊόν.</item>
+        <item>Τις συνολικές πωλήσεις.</item>
+        <item>Τις πωλήσεις ανά προϊόν.</item>
+        <item>Την αναλυτική κατάσταση πελάτων.</item>
+        <item>Την αναλυτική κατάσταση προϊόντων.</item>
+    </string-array>
+    <string-array name="queries_array">
+       <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

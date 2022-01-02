@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_insertProduct"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="@string/nav_insertProduct" />
+        <item
+            android:id="@+id/nav_displayProducts"
+            android:icon="@android:drawable/ic_search_category_default"
+            android:title="@string/nav_displayProducts" />
+
+        <item
+            android:id="@+id/nav_Queries"
+            android:icon="@android:drawable/ic_search_category_default"
+            android:title="@string/nav_Queries" />
+
+    </group>
+</menu>
+    <!-- O navigation drawer παίρνει μια λίστα απο επιλογές απο ενα menu resource file , έτσι προσθέσαμε αντικείμενα με id για να μπορούμε
+    να ανεφέρομαστε σε αυτά , και ενα τιτλο και τα built-in drawable για να τους δώσουμε μια εικόνα , επίσης τα βαλάνα να ειναι σε group
+    και κάθε φορα που επιλέγεται ένα απο αύτα φωτίζεται(<group android:checkableBehavior="single">
+-->

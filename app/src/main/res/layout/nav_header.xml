@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp">
+    <!-- Δημιουργούμε ένα layout για το navigation drawer που θα εφανίζεται στην κορυφή του navigation drawer και  αποτελείται απο ενα imageView -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/eshop" />
+    <!-- Προσθέσαμα μια εικονα με όνομα eshop στο φάκελο drawable και την τοποθετούμε στο imageView-->
+</FrameLayout>

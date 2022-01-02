@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Δημιουργούμε ενα LinearLayout και μέσα σε αύτο έχουμε ένα TextView ,ένα EditText για εισαγωγή id,ένα EditText για εισαγωγή email,
+ένα EditText για εισαγωγή επιθέτου,ένα EditText για εισαγωγή πόλεως,ένα EditText για εισαγωγή διεύθυνσης και ενα Button για την ολοκλήρωση -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.alextsatsos.e_shop.CustomerActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert Customer"
+        android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/customerIdEditTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="id"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/customerEmaiEditTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:layout_marginTop="10dp"
+         />
+
+    <EditText
+        android:id="@+id/customerFistNameEditTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="First Name"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/customerLastNameEditTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Last Name"
+         />
+    <EditText
+        android:id="@+id/customerCityEditTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint=" City"
+        />
+    <EditText
+        android:id="@+id/customerAddressEditTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Address"
+        />
+    <Button
+        android:id="@+id/idBtnInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        android:onClick="insetCustomersBtn"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
